@@ -24,13 +24,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-} */
+}
 .menu{
     font-family: sans-serif;
     font-weight: bold;
     height: 70px;
     width: 100%;
-    background: green;
     border-radius: 5px;
     font-size: 18px;
 }
@@ -49,30 +48,29 @@
     display: block;
     float: right;
 }
-.menu .ul .li{
+.menu ul li{
     list-style: none;
     display: inline-block;
 }
-.menu .ul .li a{
+.menu ul li a{
     display: block;
     text-decoration: none;
     padding: 20px;
     color: white;
 }
-.menu .ul .li a:hover{
+.menu ul li a:hover{
     display: block;
     color: green;
-    box-shadow: inset; 0px 0px 5px #000;
 }
-.menu .ul .li .dropdown{
+.menu ul li .dropdown{
     display: none;
 }
-.menu .ul .li:hover .dropdown{
+.menu ul li:hover .dropdown{
     display: block;
     position: absolute;
     padding: 10px;
 }
-.menu .ul .li:hover .dropdown li{
+.menu ul li:hover .dropdown li{
     display: block;
 }
 .menu li:hover .dropdown li a{
@@ -80,26 +78,22 @@
     border-radius: 5px;
     margin-bottom: 5px;
 }
-.menu .li:hover .dropdown .li a:hover{
-    background: yellow;
-    box-shadow: inset 0px 0px 5px white;
-}
 .logo{
     width: 200px;
     cursor: pointer;
 }
-.navbar .ul .li{
+.navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     position: relative;
 }
-.navbar .ul .li a{
+.navbar ul li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
 }
-.navbar .ul .li::after{
+.navbar ul .li::after{
     content: '';
     height: 3px;
     width: 0;
@@ -110,7 +104,7 @@
     transition: 0.5s;
 
 }
-.navbar .ul .li:hover::after{
+.navbar ul li:hover::after{
     width: 100%;
 }
 .content{
@@ -161,4 +155,4 @@ button:hover span{
 }
 button:hover{
     border: none;
-} */
+}
