@@ -41,39 +41,39 @@
     padding: 5px;
     float: left;
 }
-.menu ul{
+.menu .ul{
     margin: 0px;
     padding: 5px;
     background: none;
     display: block;
     float: right;
 }
-.menu ul li{
+.menu .ul .li{
     list-style: none;
     display: inline-block;
 }
-.menu ul li a{
+.menu .ul .li a{
     display: block;
     text-decoration: none;
     padding: 20px;
     color: white;
 }
-.menu ul li a:hover{
+.menu .ul .li a:hover{
     display: block;
     color: green;
 }
-.menu ul li .dropdown{
+.menu .ul .li .dropdown{
     display: none;
 }
-.menu ul li:hover .dropdown{
+.menu .ul .li:hover .dropdown{
     display: block;
     position: absolute;
     padding: 10px;
 }
-.menu ul li:hover .dropdown li{
+.menu .ul .li:hover .dropdown .li{
     display: block;
 }
-.menu li:hover .dropdown li a{
+.menu .li:hover .dropdown .li a{
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -82,18 +82,18 @@
     width: 200px;
     cursor: pointer;
 }
-.navbar ul li{
+.navbar .ul .li{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     position: relative;
 }
-.navbar ul li a{
+.navbar .ul .li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
 }
-.navbar ul .li::after{
+.navbar .ul .li::after{
     content: '';
     height: 3px;
     width: 0;
@@ -104,7 +104,7 @@
     transition: 0.5s;
 
 }
-.navbar ul li:hover::after{
+.navbar .ul .li:hover::after{
     width: 100%;
 }
 .content{
